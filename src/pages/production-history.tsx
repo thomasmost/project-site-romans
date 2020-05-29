@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import style from "./production-history.module.scss"
 import AOSImage from "../components/aos-image";
 import BirthdayPartyImage from "../components/birthday-party-image";
+import ArchImage from "../components/arch-image";
 
 const ProductionHistoryPage = () => (
   <Layout>
