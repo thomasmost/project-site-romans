@@ -13,9 +13,9 @@ const ProductionHistoryPage = () => (
     <h1>Production History</h1>
     <p><em>"Well, you know what they say... 'all roads lead to...'"</em></p>
     <p><em>"...what? All roads lead to what?"</em></p>
-    <h3>May 14th, 2020 - Remote Workshop with At Home Artists Project</h3>
+    <h3>May 14th, 2020 - Remote Workshop with the At Home Artists Project</h3>
     <p>
-       In the midst of quarantine, <a href="https://www.athomeartistsproject.com/">At Home Artists Project</a> produced a remote workshop directed by <a href="http://asiagagnon.virb.com/">Asia Gagnon</a>, rewrittend and retooled specifically for the 'webinar' format.
+       In the midst of quarantine, <a href="https://www.athomeartistsproject.com/">At Home Artists Project</a> produced a remote workshop directed by <a href="http://asiagagnon.virb.com/">Asia Gagnon</a>, rewritten and retooled specifically for the 'webinar' format.
     </p>
     <ArchImage />
     <ul className={style.castList}>
