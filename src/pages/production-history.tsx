@@ -2,10 +2,16 @@ import React from "react"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import style from "./production-history.module.scss"
 import AOSImage from "../components/aos-image";
 import BirthdayPartyImage from "../components/birthday-party-image";
 import ArchImage from "../components/arch-image";
+import styled from "@emotion/styled";
+
+const UL = styled.ul`
+  list-style: none;
+  margin: 0;
+  margin-top: 10px;
+`
 
 const ProductionHistoryPage = () => (
   <Layout>
@@ -18,7 +24,7 @@ const ProductionHistoryPage = () => (
        In the midst of quarantine, <a href="https://www.athomeartistsproject.com/">At Home Artists Project</a> produced a remote workshop directed by <a href="http://asiagagnon.virb.com/">Asia Gagnon</a>, rewritten and retooled specifically for the 'webinar' format.
     </p>
     <ArchImage />
-    <ul className={style.castList}>
+    <UL>
        <li>
          Romulus - <a href="https://www.imdb.com/name/nm6928501/">Brian Morabito</a>
        </li>
@@ -28,7 +34,7 @@ const ProductionHistoryPage = () => (
        <li>
          Hersilia - <a href="https://www.alexisgfloyd.com/">Alexis Floyd</a>
        </li>
-    </ul>
+    </UL>
     <hr/>
     <h3>December 14th, 2018 - Immersive Reading at Arts on Site</h3>
     <p>
@@ -36,7 +42,7 @@ const ProductionHistoryPage = () => (
        <em> Romans</em> at Arts on Site. The production was directed by <a href="http://asiagagnon.virb.com/">Asia Gagnon</a> and set at a children's birthday party.
     </p>
     <BirthdayPartyImage />
-    <ul className={style.castList}>
+    <UL>
        <li>
          Romulus - <a href="https://www.imdb.com/name/nm6928501/">Brian Morabito</a>
        </li>
@@ -46,21 +52,21 @@ const ProductionHistoryPage = () => (
        <li>
          Hersilia - <a href="https://www.alexisgfloyd.com/">Alexis Floyd</a>
        </li>
-    </ul>
+    </UL>
     <hr/>
     <h3>November 18th, 2018 - Excerpt performed at Arts on Site Performance Party</h3>
     <p>
        <a href="http://asiagagnon.virb.com/">Asia Gagnon</a> directed a brief excerpt of Act 1 in November, 2018.
     </p>
     <AOSImage />
-    <ul className={style.castList}>
+    <UL>
        <li>
          Romulus - <a href="https://www.imdb.com/name/nm6928501/">Brian Morabito</a>
        </li>
        <li>
          Remus - <a href="https://www.imdb.com/name/nm3596600/">Brian Muller</a>
        </li>
-    </ul>
+    </UL>
     <hr/>
   </Layout>
 )
