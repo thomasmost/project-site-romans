@@ -1,7 +1,7 @@
-import styled from "@emotion/styled";
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import styled from '@emotion/styled';
+import { Link } from 'gatsby';
+import PropTypes from 'prop-types';
+import React from 'react';
 
 const H = styled.header`
   background-color: black;
@@ -30,14 +30,12 @@ const Header = ({ siteTitle = '' }) => (
   <H>
     <div>
       <h1>
-        <Link to="/">
-          {siteTitle}
-        </Link>
+        <Link to="/">{siteTitle}</Link>
       </h1>
       <Link to="/script/">Script</Link>
       <Link to="/production-history/">Production History</Link>
     </div>
   </H>
-)
+);
 
-export default Header
+export default Header;
