@@ -6,6 +6,7 @@ import AOSImage from "../components/aos-image";
 import BirthdayPartyImage from "../components/birthday-party-image";
 import ArchImage from "../components/arch-image";
 import styled from "@emotion/styled";
+import FeaturedImage from "../components/featured-image";
 
 const UL = styled.ul`
   list-style: none;
@@ -19,6 +20,12 @@ const ProductionHistoryPage = () => (
     <h1>Production History</h1>
     <p><em>"Well, you know what they say... 'all roads lead to...'"</em></p>
     <p><em>"...what? All roads lead to what?"</em></p>
+    <h3>October 15th-16th, 2021 - ROMANS x Dixon Place</h3>
+    <p>
+      See the first full theatrical production for two nights only this October—<a href="https://www.eventbrite.com/e/romans-x-dixon-place-tickets-184052484937">get your tickets now!</a>
+    </p>
+    <FeaturedImage />
+
     <h3>May 14th, 2020 - Remote Workshop with the At Home Artists Project</h3>
     <p>
        In the midst of quarantine, <a href="https://www.athomeartistsproject.com/">At Home Artists Project</a> produced a remote workshop directed by <a href="http://asiagagnon.virb.com/">Asia Gagnon</a>, rewritten and retooled specifically for the 'webinar' format.
