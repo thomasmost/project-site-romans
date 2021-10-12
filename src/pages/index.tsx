@@ -28,7 +28,7 @@ const IndexPage = () => (
     </P>
     <P>
       Romans is a 90 minute irreverent retelling of the founding myth of Rome,
-      set simultaneously in the Age of Tyrants and a desolate wasteland
+      set simultaneously in the Iron Age and a desolate wasteland
       following the collapse of modern civilization. Determined to start the
       Next Great Society, Romulus and Remus are thrown into conflict over their
       past and future legacy. The legendary twins battle for control over a
