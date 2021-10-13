@@ -5,6 +5,8 @@ import FeaturedImage from '../components/featured-image';
 import SEO from '../components/seo';
 import styled from '@emotion/styled';
 
+import { OutboundLink } from "gatsby-plugin-google-gtag"
+
 const P = styled.p`
   line-height: 1.5em;
 `;
@@ -18,7 +20,7 @@ const LinkP = styled.p`
   text-align: center;
 `;
 
-const ButtonLink = styled.a`
+const ButtonLink = styled(OutboundLink)`
   display: block;
   border-radius: 5px;
   padding: 20px;
@@ -45,13 +47,13 @@ const IndexPage = () => (
       Western Civilization is happening whether we like it or not...
     </CenteredP>
     <LinkP>
-      <a
+      <OutboundLink
         href="https://www.eventbrite.com/e/romans-x-dixon-place-tickets-184052484937"
         target="_blank"
         rel="noreferrer"
       >
         Join the <em>Romans</em> and be a part of it.
-      </a>
+      </OutboundLink>
     </LinkP>
     {/* <h1>Romans</h1> */}
     <P>
