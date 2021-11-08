@@ -1,22 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import { StaticQuery, graphql } from 'gatsby';
+import "./layout.css"
 
 import Header from './header';
 import styled from '@emotion/styled';
 
-const Body = styled.body`
+const Body = styled.div`
+  margin: 0;
   @import url('https://fonts.googleapis.com/css?family=Cinzel+Decorative&display=swap');
 
-  html {
-    font-family: sans-serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
-    background-color: #fffdfb; //rgb(211, 175, 70); // rgb(211, 175, 70);
-  }
-  body {
-    margin: 0;
-  }
   article,
   aside,
   details,
@@ -30,18 +23,13 @@ const Body = styled.body`
   section,
   summary {
     display: block;
-    background-color: #fffdfb;
   }
   a {
-    font-family: sans-serif;
-    color: red; // rgb(221, 119, 76);
+    color: rgb(221, 119, 76);
     text-decoration: none;
   }
   main {
     p,
-    a {
-      // padding: 0 16px;
-    }
   }
   footer {
     // padding: 0 16px;
@@ -224,6 +212,7 @@ const Body = styled.body`
     box-sizing: inherit;
   }
   body {
+    margin: 0 !important;
     color: hsla(0, 0%, 0%, 0.8);
     font-family: georgia, serif;
     font-weight: normal;
@@ -660,14 +649,14 @@ const Layout = ({ children }) => (
     `}
     render={(data) => (
       <Body>
-        {/* <Header siteTitle={data.site.siteMetadata.title} /> */}
+        <Header siteTitle={data.site.siteMetadata.title} />
         <div
           style={{
             margin: `0 auto`,
             maxWidth: 800,
             padding: `0px 1.0875rem 1.45rem`,
             paddingTop: 0,
-            backgroundColor: `#fffdfb`,
+            backgroundColor: `#fff`,
           }}
         >
           <main>{children}</main>

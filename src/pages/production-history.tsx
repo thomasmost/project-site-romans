@@ -26,9 +26,9 @@ const ProductionHistoryPage = () => (
     </p>
     <h3>October 15th-16th, 2021 - ROMANS x Dixon Place</h3>
     <p>
-      See the first full theatrical production for two nights only this October—
+      The first full theatrical production for two nights only at Dixon Place.{' '}
       <a href="https://www.eventbrite.com/e/romans-x-dixon-place-tickets-184052484937">
-        get your tickets now!
+        See the archived event.
       </a>
     </p>
     <FeaturedImage />
@@ -43,7 +43,6 @@ const ProductionHistoryPage = () => (
       <a href="http://asiagagnon.virb.com/">Asia Gagnon</a>, rewritten and
       retooled specifically for the 'webinar' format.
     </p>
-    <ArchImage />
     <UL>
       <li>
         Romulus -{' '}

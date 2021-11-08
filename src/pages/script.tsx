@@ -14,15 +14,13 @@ const ProductionHistoryPage = () => (
       <em>"But wait’ll you see what we can make out of it!"</em>
     </p>
     <p>
-      Read an excerpt from the beginning of Act 2 below. Email{' '}
-      <a href="mailto:thomas@epicatomic.com">thomas@epicatomic.com</a> for a
-      full script.
+      Read an excerpt from the beginning of Scene 2 below.
     </p>
     <div
       className="excerpt"
       style={{
         padding: '40px',
-        backgroundColor: '#eed',
+        backgroundColor: '#f6f6e6',
         marginBottom: '20px',
       }}
     >

@@ -21,6 +21,7 @@ const H = styled.header`
       }
     }
     a {
+      color: rgb(221, 119, 76);
       margin-right: 40px;
     }
   }
