@@ -18,7 +18,7 @@ const IndexPage = () => (
     <h1 style={{ display: 'none' }}>Romans</h1>
     <P>
       Romans is a one-act comedy retelling of the founding myth of Rome 
-      written by <a target="_blank" rel="noref" href="https://www.twitter.com/thomascmost">Thomas Constantine Moore</a>,
+      written by Thomas Constantine Moore,
       set simultaneously in the Iron Age and a desolate wasteland
       following the collapse of modern civilization. Determined to start the
       Next Great Society, Romulus and Remus are thrown into conflict over their
