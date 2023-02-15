@@ -17,15 +17,15 @@ const IndexPage = () => (
     </div>
     <h1 style={{ display: 'none' }}>Romans</h1>
     <P>
-      Romans is a one-act comedy retelling of the founding myth of Rome 
+      {`Romans is a one-act comedy retelling of the founding myth of Rome 
       written by Thomas Constantine Moore,
       set simultaneously in the Iron Age and a desolate wasteland
       following the collapse of modern civilization. Determined to start the
       Next Great Society, Romulus and Remus are thrown into conflict over their
       past and future legacy. The legendary twins battle for control over a
-      nation that doegiths not yet exist and vie for the affections of the wife of
+      nation that doesn't yet exist and vie for the affections of the wife of
       their most ferocious general...whose self-sovereign agenda ultimately
-      throws all their best laid plans into chaos.
+      throws all their best laid plans into chaos.`}
     </P>
     <P>
       Western civilization is happening, whether you like it or not. So get in
